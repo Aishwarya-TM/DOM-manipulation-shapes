@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.shapes,.inputs
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #007bff;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #28a745;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+    border-radius: 50%;
+}
